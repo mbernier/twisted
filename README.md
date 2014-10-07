@@ -16,9 +16,9 @@ Sendgrid currently has two builds of twisted, each build by Jenkins
 * 10.0.0 http://build.sendgrid.net:8080/job/twisted/
 * 13.2.0 http://build.sendgrid.net:8080/job/twisted-13/
 
-## Create new sendgird version
+## Create new SendGrid version
 Example create 13.3.0
-* assume origin git@github.com:sendgird/twisted
+* assume origin git@github.com:sendgrid/twisted
 * assume all remotes and branches are up to date
 
 1. Check out twisted tag of version 13.3.0
@@ -42,7 +42,7 @@ $ git cherry-pick twisted-10.0.0..sendgrid_package_patch
 ## Create twisted RPM 13.3.0-0
 1. Checkout sendgrid version branch
 ```shell
-$ git checkout sendgird-13.3.0
+$ git checkout sendgrid-13.3.0
 ```
 
 2. OPTIONAL: set next build number (defaults to 0)
